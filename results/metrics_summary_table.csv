@@ -1,0 +1,4 @@
+Architecture,Parameters,Test Accuracy (%),Macro-F1,Weighted-F1,Macro-Precision,Macro-Recall,Test Loss
+Linear Baseline,119,92.02,0.9327,0.9203,0.9332,0.9326,0.2182
+Shallow MLP,1543,92.51,0.9362,0.9253,0.9368,0.9359,0.1998
+Deeper MLP,12743,92.56,0.9366,0.9257,0.938,0.9355,0.2013
