@@ -1,0 +1,52 @@
+================================================================================
+DRY BEAN MULTICLASS CLASSIFICATION - DETAILED REPORTS
+================================================================================
+
+--- Linear Baseline (Parameters: 119) ---
+              precision    recall  f1-score   support
+
+    BARBUNYA       0.95      0.90      0.93       199
+      BOMBAY       1.00      1.00      1.00        78
+        CALI       0.92      0.93      0.92       245
+    DERMASON       0.93      0.90      0.91       532
+       HOROZ       0.95      0.97      0.96       289
+       SEKER       0.94      0.95      0.94       304
+        SIRA       0.85      0.88      0.86       395
+
+    accuracy                           0.92      2042
+   macro avg       0.93      0.93      0.93      2042
+weighted avg       0.92      0.92      0.92      2042
+
+
+--- Shallow MLP (Parameters: 1,543) ---
+              precision    recall  f1-score   support
+
+    BARBUNYA       0.93      0.90      0.92       199
+      BOMBAY       1.00      1.00      1.00        78
+        CALI       0.93      0.93      0.93       245
+    DERMASON       0.93      0.90      0.92       532
+       HOROZ       0.95      0.97      0.96       289
+       SEKER       0.96      0.95      0.95       304
+        SIRA       0.85      0.90      0.88       395
+
+    accuracy                           0.93      2042
+   macro avg       0.94      0.94      0.94      2042
+weighted avg       0.93      0.93      0.93      2042
+
+
+--- Deeper MLP (Parameters: 12,743) ---
+              precision    recall  f1-score   support
+
+    BARBUNYA       0.94      0.90      0.92       199
+      BOMBAY       1.00      1.00      1.00        78
+        CALI       0.92      0.93      0.93       245
+    DERMASON       0.92      0.92      0.92       532
+       HOROZ       0.96      0.97      0.97       289
+       SEKER       0.96      0.94      0.95       304
+        SIRA       0.86      0.89      0.87       395
+
+    accuracy                           0.93      2042
+   macro avg       0.94      0.94      0.94      2042
+weighted avg       0.93      0.93      0.93      2042
+
+
